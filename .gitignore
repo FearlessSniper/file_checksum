@@ -1,0 +1,2 @@
+# Ignore pyinstaller build
+/dist

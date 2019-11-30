@@ -15,8 +15,8 @@ if __name__ == "__main__":
 
     with open(file_path, "rb") as f:
         bytes_ = f.read()
-	print("MD5: " + hashlib.md5(bytes_).hexdigest())
-	print("SHA1: " + hashlib.sha1(bytes_).hexdigest())
-	print("SHA256: " + hashlib.sha256(bytes_).hexdigest())
-	print("SHA512: " + hashlib.sha512(bytes_).hexdigest())
-        input("Press enter to continue...")
+    print("MD5: " + hashlib.md5(bytes_).hexdigest())
+    print("SHA1: " + hashlib.sha1(bytes_).hexdigest())
+    print("SHA256: " + hashlib.sha256(bytes_).hexdigest())
+    print("SHA512: " + hashlib.sha512(bytes_).hexdigest())
+    input("Press enter to continue...")
